@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Formulier voor contactgegevens">
+        <meta name="keywords" content="Voornaam, Achternaam, e-mailadres, bericht">
+        <meta name="author" content="Dhr. mr. K. Hieralal">
+        <title>Contactformulier</title>
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <!--************************** Menu *********************************************-->
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="mijncv.html">Mijn CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--************************** Invoer contactgegevens *****************************-->
+        <main>
+   
+            <h1>Contactgegevens</h1>
+
+            <img src="../img/78.jpg" alt="picture of K. Hieralal">
+            
+            <form action="https://formspree.io/f/myyqwqnz" method="post">Contactformulier
+                <input type="text" name="Voornaam" placeholder="Officiele voornaam" maxlength="25" required>  
+                <input type="text" name="Achternaam" placeholder="Officiele achternaam" maxlength="25" required>
+                <input type="email" name="Email" placeholder="voorbeeld@voorbeeld.nl" maxlength="50" required>
+                <textarea name="Uw boodschap" placeholder="Uw boodschap" maxlength="1500" required></textarea>
+                <button>Verzenden</button>
+            </form>           
+                
+        </main>
+
+        <!--************************** Copyright *********************************************-->
+
+            <footer>
+                <p class="copy">&#169; 2024 Alle rechten voorbehouden</p>
+            </footer>
+    </body>
+</html>

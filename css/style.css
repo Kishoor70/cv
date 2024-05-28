@@ -1,0 +1,208 @@
+/******************************** Universeel Selector ******************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+/***********************************************************************************************/
+
+
+/******************************** Body *********************************************************/
+body {
+    background-color: rgb(232, 221, 221);
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    padding: 5px;
+}
+/***********************************************************************************************/
+
+
+/******************************** Menu *******************************************************/
+header {
+    width: 450px;
+    height: 80px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    display: inline-block;
+    height: 70px;
+    width: 100px;
+    background-color: rgb(0, 229, 255);
+    text-align: center;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+      
+}
+
+li:hover {
+    background-color: red;
+    font-size: 19px;
+}
+/**********************************************************************************************/
+
+
+/******************************** Heading 1 ****************************************************/
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 229, 255, 0.54);
+    color: rgb(247, 244, 244);
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px blue;
+}
+/***********************************************************************************************/
+
+
+/******************************** Profiel foto *************************************************/
+img {
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px blue;
+}
+/***********************************************************************************************/
+
+/******************************** Main *********************************************************/
+main {
+    background-color: rgb(190, 178, 178);
+    width: 450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***********************************************************************************************/
+
+
+/******************************** CV ***********************************************************/
+.cv {
+    width: 450px;
+    height: auto;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 10px;
+    line-height: 1.5;
+}
+/***********************************************************************************************/
+
+
+/******************************** Tabel ********************************************************/
+table {
+    width: 450px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+caption {
+    background-color: blue;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid blue;
+    padding: 10px 5px;
+    color: black;
+}
+
+th {
+    background-color: rgb(0, 229, 255);
+}
+/***********************************************************************************************/
+
+
+/******************************** Formulieren ******************************************/
+
+form {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 229, 255);
+    padding-top: 15px;
+    text-shadow: 1px 1px 1px blue;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    background-color: #f8f8f8; 
+    margin: 15px 0px;
+    width: 450px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: inset 1px 1px 1px blue;
+}
+
+textarea {
+    height: 150px;
+    border: 2px solid black;
+    box-shadow: inset 1px 1px 1px blue;
+    resize: none;
+}
+
+button {
+    width: 450px;
+    height: 70px;
+    line-height: 70px;
+    background-color: navy;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: green;
+    color: white;
+    border-radius: 10px; 
+    font-size: 25px;
+}
+/***********************************************************************************************/
+
+
+
+/******************************** Footer *******************************************************/
+footer {
+    width: 450px;
+    height: 80px;
+    background-color: blue;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copy {
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+}
+
+/***********************************************************************************************/
