@@ -1,0 +1,186 @@
+:root{
+  /* Vertrouwen */
+  --trust-blue:#0f4c81;
+  --trust-green:#1e7f5c;
+
+  /* Functiekleuren */
+  --chauffeur:#0ea5e9;
+  --juridisch:#7c3aed;
+  --horeca:#f97316;
+  --logistiek:#22c55e;
+  --bestuur:#ec4899;
+
+  --bg:#eef2f7;
+  --dark:#020617;
+}
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:"Segoe UI",system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--dark);
+  line-height:1.7;
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(135deg,var(--trust-blue),var(--trust-green));
+  color:white;
+  padding:4rem 1.5rem;
+}
+
+.header-content{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:220px 1fr;
+  gap:2.5rem;
+  align-items:center;
+}
+
+.profile-pic{
+  width:220px;
+  height:220px;
+  border-radius:50%;
+  overflow:hidden;
+  border:5px solid white;
+  background:#ccc;
+}
+
+.profile-pic img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+header h1{
+  font-size:2.8rem;
+}
+
+header h2{
+  margin-top:.6rem;
+  font-weight:500;
+}
+
+header p{
+  margin-top:1.2rem;
+  max-width:700px;
+  opacity:.95;
+}
+
+/* SECTION */
+section{
+  max-width:1400px;
+  margin:4rem auto;
+  padding:0 1.5rem;
+}
+
+.section-title{
+  font-size:2rem;
+  margin-bottom:2rem;
+  color:#0f172a;
+}
+
+/* JOB GRID */
+.jobs{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:2rem;
+}
+
+.job{
+  background:white;
+  border-radius:22px;
+  padding:2rem;
+  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+  border-top:10px solid;
+}
+
+.job h3{font-size:1.1rem;}
+.job span{font-size:.9rem;opacity:.75;}
+.job p{margin-top:.8rem;font-size:.95rem;}
+
+.chauffeur{border-color:var(--chauffeur);}
+.juridisch{border-color:var(--juridisch);}
+.horeca{border-color:var(--horeca);}
+.logistiek{border-color:var(--logistiek);}
+.bestuur{border-color:var(--bestuur);}
+
+/* GRADES */
+.grades{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.5rem;
+}
+
+.grade-card{
+  background:white;
+  border-radius:20px;
+  padding:1.8rem;
+  box-shadow:0 15px 35px rgba(0,0,0,0.1);
+}
+
+.grade-card h3{
+  margin-bottom:1rem;
+  color:var(--trust-blue);
+}
+
+.grade-card ul{
+  list-style:none;
+}
+
+.grade-card li{
+  display:flex;
+  justify-content:space-between;
+  padding:.4rem 0;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.section-title{
+  font-size:2rem;
+  margin-bottom:2rem;
+  color:#0f172a;
+}
+
+/* EDUCATION */
+.education{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:2rem;
+}
+
+.edu-card{
+  background:white;
+  border-radius:20px;
+  padding:2rem;
+  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+  border-left:8px solid var(--accent);
+}
+
+.edu-card h3{
+  margin-bottom:.3rem;
+}
+
+.edu-card span{
+  font-size:.9rem;
+  opacity:.75;
+}
+
+.edu-card p{
+  margin-top:.8rem;
+}
+
+
+/* FOOTER */
+footer{
+  background:linear-gradient(135deg,var(--trust-green),var(--trust-blue));
+  color:white;
+  text-align:center;
+  padding:4rem 1.5rem;
+}
